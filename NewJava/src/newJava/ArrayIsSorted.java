@@ -9,7 +9,7 @@ public class ArrayIsSorted {
 	}
 	public static void SortedArray() {
 		
-		int arr[]= {1,2,3,4,5,6};
+		int arr[]= {4,2,3,1,5,6};
 		System.out.println(isSorted(arr));
 	}
 	public static boolean isSorted(int a[]) {

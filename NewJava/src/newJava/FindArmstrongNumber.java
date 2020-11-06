@@ -17,16 +17,17 @@ public class FindArmstrongNumber {
 			cube = cube+(r*r*r);
 		}
 		if(t==cube) {
-			System.out.println("This is an Amstrong Number");
+			System.out.println("This is an Armstrong Number");
 		}
 		else {
-			System.out.println("This is not an Amstrong Number");
+			System.out.println("This is not an Armstrong Number");
 		}
 	}
 
 	public static void main(String[] args) {
 
-		isAmstronNumber(0);
+		isAmstronNumber(153);
 	}
+	
 
 }
